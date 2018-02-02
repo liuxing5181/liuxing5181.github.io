@@ -99,7 +99,11 @@
 <meta property="og:image" content="www.dengshishuang.com/2018/02/images/jenk_09.png">
 <meta property="og:image" content="www.dengshishuang.com/2018/02/images/jenk_10.png">
 <meta property="og:image" content="www.dengshishuang.com/2018/02/images/jenk_11.png">
-<meta property="og:updated_time" content="2018-02-02T07:39:39.000Z">
+<meta property="og:image" content="www.dengshishuang.com/2018/02/images/jenk_12.png">
+<meta property="og:image" content="www.dengshishuang.com/2018/02/images/jenk_13.png">
+<meta property="og:image" content="www.dengshishuang.com/2018/02/images/jenk_14.png">
+<meta property="og:image" content="www.dengshishuang.com/2018/02/images/jenk_15.png">
+<meta property="og:updated_time" content="2018-02-02T07:48:17.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第五课">
 <meta name="twitter:description" content="android Jenkins自动化打包简介Jenkins作为一个开源的持续集成工具，不仅可以用来进行Android打包，也可以用来进行iOS打包、NodeJs打包、Jave服务打包等。官方地址为:https://jenkins.io/。 作用：打包和开发工作分离，规范打包流程，减少开发工作量，减少出错率。 本次主要是记录mac系统上的操作流程 需要安装的环境JDK、Android SDK、Jen">
@@ -372,8 +376,10 @@
 </ul>
 <hr>
 <h3 id="一-Jenkins进阶"><a href="#一-Jenkins进阶" class="headerlink" title="一 Jenkins进阶"></a>一 Jenkins进阶</h3><ul>
-<li>发布后自动创建git tag</li>
-<li>Publish Over SSH</li>
+<li><p>发布后自动创建git tag<br><img src="../../images/jenk_12.png" alt="image description"><br>配置Git Publisher 时，需要我们勾选”Push Only If Build        Succeeds”，要不然每次发布无论成功或者失败都去创建tag这样给我们的仓库里面会产生很多垃圾版本。<br>点击发布查看一下效果；<br><img src="../../images/jenk_13.png" alt="image description"></p>
+</li>
+<li><p>Publish Over SSH<br><img src="../../images/jenk_14.png" alt="image description"><br><img src="../../images/jenk_15.png" alt="image description"></p>
+</li>
 </ul>
 
       
